@@ -9,7 +9,7 @@ end
 new_array
 end
 
-def reduce (array, start = 0)
+def reduce (array, start = nil)
   total = start
   index = 0
   while index < array.length do 
